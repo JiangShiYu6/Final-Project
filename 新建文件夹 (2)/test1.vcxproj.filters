@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="WelcomeScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSelect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="baseMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower_ex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="basemonster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="baseHero.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene01.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dabing.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="xiaobing.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="yuanshichong.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="heijiao.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="amiya.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="andeqieer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lapu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="hemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StopScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="WelcomeScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSelect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="baseMap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower_ex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="basemonster.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="yuanshichong.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="dog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="xiaobing.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="dabing.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="baseHero.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene01.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="heijiao.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="amiya.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="andeqieer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="lapu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="hemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StopScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
