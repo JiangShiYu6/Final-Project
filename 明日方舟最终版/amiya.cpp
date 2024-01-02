@@ -29,7 +29,7 @@ bool amiya::init() {
         std::string frameName = StringUtils::format("amiya_attack_%02d.png", i);
         amiya::frameCache->addSpriteFrame(SpriteFrame::create(frameName, Rect(0, 0, 200, 200)), frameName);
     }
-    for (int i = 3; i <= 16; i++) {
+    for (int i = 3; i <= 15; i++) {
         std::string frameName = StringUtils::format("AmiyaRight%d.png", i);
         amiya::frameCache->addSpriteFrame(SpriteFrame::create(frameName, Rect(0, 0, 200, 200)), frameName);
     }
@@ -57,7 +57,7 @@ void amiya::playAttackAnimation() {
         this->runAction(RepeatForever::create(attackAnimate));
     }
     else {
-        for (int i = 1; i <= 6; ++i) {
+        for (int i = 3; i <= 15; ++i) {
             std::string frameName = StringUtils::format("AmiyaRight%d.png", i);
             auto frame = frameCache->getSpriteFrameByName(frameName);
             if (frame) {
@@ -166,20 +166,13 @@ void amiya::findTargetInRange() {
             if (distance <= this->attackRange) {
                 isAttacking = true;
                 if (currentFrame - lastAttackTime >= attackCooldown) {
-                    // Monster = monster;//   
-                     /*
-                     auto bullet = Bullet::create();
-                     bullet->setPosition(this->getPosition()); // 设置子弹的初始位置为阿米娅的位置
-                     bullet->character = this; // 设置子弹的目标
-                     bullet->monster = monster;
-                     auto currentScene = dynamic_cast<baseMap*>(this->getScene());
-                     bullet->scheduleUpdate();
-                     currentScene->addChild(bullet); // 将子弹添加到场景中
-                     bullet->getmove();*/
+                
                      // 创建精灵
                     auto sprite = Sprite::create("magic.png");
                     sprite->setPosition(this->getPosition()); // 设置起始位置
+                    
                     auto scene = Director::getInstance()->getRunningScene();
+                   
                     scene->addChild(sprite); // 将精灵添加到当前运行的场景
 
                     // 目标位置

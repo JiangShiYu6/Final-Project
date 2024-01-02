@@ -41,9 +41,9 @@ bool PlayScene01::init() {
 }
 
 void PlayScene01::initEnemyWaves() {
-    wavesInfo.push_back(WaveInfo("Dog", 3, 5.0f));                   // 第一波：3个Shiyuanchong，每2秒一个
-    wavesInfo.push_back(WaveInfo("Xiaobing", 2, 10.0f));             // 第二波：2个Xiaobing，每1.5秒一个
-    wavesInfo.push_back(WaveInfo("Shiyuanchong", 3, 8.0f));          // 第三波：3个Dog，每1秒一个
+    wavesInfo.push_back(WaveInfo("Dog", 3, 3.0f));                   // 第一波：3个Shiyuanchong，每2秒一个
+    wavesInfo.push_back(WaveInfo("Xiaobing", 2, 5.0f));             // 第二波：2个Xiaobing，每1.5秒一个
+    wavesInfo.push_back(WaveInfo("Shiyuanchong", 3, 2.0f));          // 第三波：3个Dog，每1秒一个
 }
 
 

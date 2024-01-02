@@ -2,8 +2,6 @@
 #include"heijiao.h"
 USING_NS_CC; 
 
-
-
 bool heijiao::init() {
     // 首先调用基类的初始化
     if (!BaseCharacter::init()) {
@@ -22,7 +20,7 @@ bool heijiao::init() {
     // 加载 heijiao 的纹理图像
     this->setTexture("heijiao_front.png");
     // 设置 heijiao 的初始属性
-    this->initCharacterAttributes(100, 10, 70, 3);
+    this->initCharacterAttributes(400, 10, 70, 3);
     deleteButton->setPosition(Vec2(this->getContentSize().width / 2, this->getContentSize().height / 2 + 30));
     healthBar->setPosition(Vec2(this->getContentSize().width / 2, this->getContentSize().height / 2 + 20));
     if (!initManaBar("blue.png")) {
@@ -106,7 +104,7 @@ void heijiao::levelup()
     
 
     if (level == 2) {
-        maxHp = 150.0f; // 初始血量为100
+        maxHp = 450.0f; // 初始血量为100
         currHp = maxHp; // 当前血量等于最大血量
         attackPower = 15.0f; // 攻击力为10
         attackRange = 80.0f; // 攻击范围为50
@@ -115,7 +113,7 @@ void heijiao::levelup()
         
     }
     if (level == 3) {
-        maxHp = 200.0f; // 初始血量为100
+        maxHp = 500.0f; // 初始血量为100
         currHp = maxHp; // 当前血量等于最大血量
         attackPower = 20.0f; // 攻击力为10
         attackRange = 80.0f; // 攻击范围为50

@@ -44,7 +44,6 @@ void BaseCharacter::initCharacterAttributes(float health, float attackPower,floa
     this->isPlaying = false;
 }
 
-
 //ÊÜÉËÂß¼­
 void BaseCharacter::takeDamage(float damage) {
     if (wudi)
@@ -150,15 +149,19 @@ void BaseCharacter::update(float dt) {
     }
     findTargetInRange();
 
-    if (!isPlaying) {
-        if (isAttacking) {
+    
+   
+    if (isAttacking) {
 
+        if (!isPlaying) {
             this->playAttackAnimation();
             isPlaying = true;
         }
-        else {
-            stopAllActions();
-        }
+       
+    }
+    else {
+        stopAllActions();
+        isPlaying = false;
     }
 }  
 
@@ -227,7 +230,6 @@ void BaseCharacter::showSkillButton() {
         skillButton->setVisible(true);
     }
 }
-
 
 
 void BaseCharacter::onSkillButtonClicked(Ref* sender, ui::Widget::TouchEventType type) {

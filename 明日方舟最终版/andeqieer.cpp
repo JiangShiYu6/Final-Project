@@ -13,7 +13,7 @@ bool andeqieer::init() {
     // 加载 heijiao 的纹理图像
     this->setTexture("andeqieer_attack_01.png");
     // 设置 heijiao 的初始属性
-    this->initCharacterAttributes(50, 30, 200, 1.6f);
+    this->initCharacterAttributes(50, 20, 200, 1.6f);
     if (!initManaBar("blue.png")) {
         return false;
     }
@@ -156,7 +156,7 @@ void andeqieer::levelup() //升级效果
     }
     if (level == 3) {
 
-        attackPower = 35.0f; // 攻击力为10
+        attackPower = 30.0f; // 攻击力为10
         attackRange = 225.0f; // 攻击范围为50
         setTexture("AnDeRight1.png");
 

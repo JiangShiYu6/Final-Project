@@ -6,8 +6,8 @@ class Db : public BaseMonster {
 public:
     virtual bool init() override;
     
-    virtual void playMoveAnimation()override;
-    virtual void playAttackAnimation()override;
+    void playMoveAnimation()override;
+    void playAttackAnimation()override;
     
     SpriteFrameCache* frameCache;
     CREATE_FUNC(Db);

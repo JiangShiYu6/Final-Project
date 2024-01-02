@@ -264,7 +264,7 @@ void baseMap::initCharacterIcons() {
         
         // 为每个图标添加触摸事件监听器
         auto listener = EventListenerTouchOneByOne::create();
-
+        int m;
         listener->setSwallowTouches(true);
 
         listener->onTouchBegan = [icon, this](Touch* touch, Event* event) -> bool {
@@ -273,6 +273,7 @@ void baseMap::initCharacterIcons() {
             }
             if (icon->getBoundingBox().containsPoint(touch->getLocation())) {
                 icon->setOpacity(150); // 点击时变半透明
+                
                 return true;
             }
             return false;
@@ -518,6 +519,7 @@ void baseMap::showExitModal() {
         UserDefault::getInstance()->setIntegerForKey("currentLevel", 2);
         UserDefault::getInstance()->flush();
 
+        break;
     case 1:
         HERO->setTexture("AD_1.png");
         modalLayer->addChild(Star1);

@@ -62,10 +62,10 @@ void MapSelect::onEnter() {
 
     // 读取用户的当前关卡进度
     int currentLevel = UserDefault::getInstance()->getIntegerForKey("currentLevel", 1);
-
+    
     // 根据关卡进度启用或禁用第二关的选择按钮
     map_01_Item->setEnabled(true); // 第一关默认总是可用
-    map_02_Item->setEnabled(currentLevel >= 2); // 第二关需要用户完成第一关
+    map_02_Item->setEnabled(currentLevel>=2); // 第二关需要用户完成第一关
 }
 
 void MapSelect::unlockLevel() {

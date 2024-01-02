@@ -29,7 +29,7 @@ public:
     void addCoins();
     bool comsuption(int cum);
     void updateCoins(float dt);
-    //void spendCoins(int amount);
+    
 
     //路径和点位
     virtual void initPointsVector(float offX);//初始化路径
@@ -47,9 +47,9 @@ public:
 
     // 敌人波次
     
-    virtual void startEnemyWave(int waveNumber);
     virtual void initEnemyWaves();
-    virtual void spawnMonster(std::string monsterType);
+    void startEnemyWave(int waveNumber);
+    void spawnMonster(std::string monsterType);
     void checkAndStartNextWave(); 
     void update(float dt);
     
@@ -57,7 +57,7 @@ public:
     Vector<BaseMonster*> activeMonsters;
     Vector<BaseCharacter*> characters;
 
-    //怪物死亡
+    //死亡
     void removeActiveMonster(BaseMonster* monster);
     void removeCharacters(BaseCharacter* monster);
    

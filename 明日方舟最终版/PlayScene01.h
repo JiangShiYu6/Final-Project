@@ -9,7 +9,7 @@ public:
     virtual bool init() override;
    
     
-    virtual void initEnemyWaves()override;
+    void initEnemyWaves()override;
    
     
     Vector<BaseMonster*> monsters;
