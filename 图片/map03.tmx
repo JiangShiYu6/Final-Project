@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="92">
+ <tileset firstgid="1" source="map.tsx"/>
+ <layer id="1" name="background" width="32" height="22">
+  <data encoding="base64" compression="zlib">
+   eJwV1YOyGAYAAMEX27Zt27Zt27Zt27bttDHa2LZtdTtz+w0XKCAgIDBBCEowghOCkIQiNGEISzjCE4GIRCIyUYhKNKITg5jEIjZxiEs84pOAhCQiMUlISjKSk4KUpCI1aUhLOtKTgYxkIjNZyEo2spODnOQiN3nISz7yU4CCFKIwRShKMYpTgpKUojRlKEs5ylOBilSiMlWoSjWqU4Oa1KI2dahLPerTgIY0ojFNaEozmtOClrSiNW1oSzva04GOdKIzXehKN7rTg570ojd96Es/+jOAgQxiMEMYyjCGM4KRjGI0YxjLOMYzgYlMYjJTmMo0pjODmcxiNnOYyzzms4CFLGIxS1jKMpazgpWsYjVrWMs61rOBjWxiM1vYyja2s4Od7GI3e9jLPvZzgIMc4jB/8TdHOMoxjnOCk5ziNGc4yz/8yznOc4GLXOIyV7jKNa5zg5vc4jZ3uMs97vOAhzziMU94yjOe84KXvOI1b3jLO97zgY984jNf+Mo3vvODn/ziN38ICCQCE4SgBCM4IQhJKEIThrCEIzwRiEgkIhOFqEQjOjGISSxiE4e4xCM+CUhIIhKThKQkIzkpSEkqUpOGtKQjPRnISCYyk4WsZCM7OchJLnKTh7zkIz8FKEghClOEohSjOCUoSSlKU4aylKM8FahIJSpThapUozo1qEktalOHutSjPg1oSCMa04SmNKM5LWhJK1rThra0oz0d6EgnOtOFrnSjOz3oSS9604e+9KM/AxjIIAYzhKEMYzgjGMkoRjOGsYxjPBOYyCQmM4WpTGM6M5jJLGYzh7nMYz4LWMgiFrOEpSxjOStYySpWs4a1rGM9G9jIJjazha1sYzs72MkudrOHvexjPwc4yCEO8xd/c4SjHOM4JzjJKU5zhrP8w7+c4zwXuMglLnOFq1zjOje4yS1uc4e73OM+D3jIIx7zhKc84zkveMkrXvOGt7zjPR/4yCc+84WvfOM7P/jJL37zh//HH4jABCEowQhOCEISitCEISzhCE8EIhKJyEQhKtGITgxiEovYxCEu8YhPAhKSiMQkISnJSE4KUpKK1KQhLelITwYykonMZCEr2chODnKSi9zkIS/5yE8BClKIwhShKMUoTglKUorSlKEs5ShPBSpSicpUoSrVqE4NalKL2tShLvWoTwMa0ojGNKEpzWhOC1rSita0oS3taE8HOtKJznShK93oTg960ove9KEv/ejPAAYyiMEMYSjDGM4IRjKK0YxhLOMYzwQmMonJTGEq05jODGYyi9nMYS7zmM8CFrKIxSxhKctYzgpWsorVrGEt61jPBjayic1sYSvb2M4OdrKL3exhL/vYzwEO8h8sMUny
+  </data>
+ </layer>
+ <objectgroup id="2" name="road01" visible="0">
+  <object id="1" x="890.5" y="370"/>
+  <object id="2" x="861" y="370"/>
+  <object id="3" x="829" y="370"/>
+  <object id="4" x="795" y="370"/>
+  <object id="6" x="764" y="370"/>
+  <object id="7" x="731.5" y="370"/>
+  <object id="8" x="700.5" y="370"/>
+  <object id="9" x="666.5" y="370"/>
+  <object id="10" x="636" y="370"/>
+  <object id="11" x="604" y="370"/>
+  <object id="12" x="574" y="355"/>
+  <object id="13" x="550" y="340"/>
+  <object id="14" x="526" y="320"/>
+  <object id="16" x="499" y="300"/>
+  <object id="17" x="470" y="300"/>
+  <object id="18" x="436.5" y="300"/>
+  <object id="19" x="403.5" y="300"/>
+  <object id="21" x="373" y="300"/>
+  <object id="22" x="344" y="300"/>
+  <object id="23" x="318.5" y="310"/>
+  <object id="24" x="292.5" y="325"/>
+  <object id="25" x="275" y="350"/>
+  <object id="27" x="254" y="370"/>
+  <object id="28" x="223" y="370"/>
+  <object id="29" x="193.5" y="370"/>
+  <object id="30" x="167" y="370"/>
+  <object id="31" x="139.5" y="370"/>
+  <object id="32" x="108.5" y="370"/>
+  <object id="33" x="81.5" y="370"/>
+ </objectgroup>
+ <objectgroup id="3" name="road">
+  <object id="34" x="886.5" y="290"/>
+  <object id="35" x="859" y="290"/>
+  <object id="36" x="833.5" y="300"/>
+  <object id="37" x="808.5" y="310"/>
+  <object id="38" x="783.5" y="320"/>
+  <object id="39" x="767.5" y="350"/>
+  <object id="40" x="741.5" y="370"/>
+  <object id="41" x="707.5" y="370"/>
+  <object id="42" x="660" y="370"/>
+  <object id="43" x="614.5" y="370"/>
+  <object id="44" x="578" y="360"/>
+  <object id="45" x="559.5" y="325"/>
+  <object id="46" x="533" y="300"/>
+  <object id="47" x="496" y="300"/>
+  <object id="48" x="454" y="300"/>
+  <object id="50" x="415" y="300"/>
+  <object id="51" x="375.5" y="300"/>
+  <object id="52" x="339" y="310"/>
+  <object id="53" x="312" y="320"/>
+  <object id="54" x="288.5" y="340"/>
+  <object id="56" x="257" y="360"/>
+  <object id="57" x="213.5" y="360"/>
+  <object id="58" x="163.5" y="360"/>
+  <object id="59" x="102" y="360"/>
+ </objectgroup>
+ <objectgroup id="4" name="towers_yuan" visible="0">
+  <object id="60" x="720" y="420" width="60" height="60"/>
+  <object id="61" x="630" y="420" width="60" height="60"/>
+  <object id="62" x="610" y="270" width="60" height="60"/>
+  <object id="63" x="610" y="190" width="60" height="60"/>
+  <object id="64" x="690" y="190" width="60" height="60"/>
+  <object id="65" x="520" y="190" width="60" height="60"/>
+  <object id="66" x="530" y="420" width="60" height="60"/>
+  <object id="67" x="440.5" y="420" width="60" height="60"/>
+  <object id="68" x="440" y="190" width="60" height="60"/>
+  <object id="69" x="360" y="190" width="60" height="60"/>
+  <object id="70" x="350" y="340" width="60" height="60"/>
+  <object id="71" x="340" y="420" width="60" height="60"/>
+  <object id="72" x="245" y="420" width="60" height="60"/>
+  <object id="73" x="160" y="420" width="60" height="60"/>
+  <object id="74" x="180" y="270" width="60" height="60"/>
+  <object id="75" x="195" y="190" width="60" height="60"/>
+  <object id="76" x="280" y="190" width="60" height="60"/>
+ </objectgroup>
+ <objectgroup id="5" name="towers_jin" visible="0">
+  <object id="77" x="170" y="350" width="60" height="60"/>
+  <object id="78" x="260" y="350" width="60" height="60"/>
+  <object id="79" x="275" y="275" width="60" height="60"/>
+  <object id="80" x="360" y="275" width="60" height="60"/>
+  <object id="83" x="440" y="275" width="60" height="60"/>
+  <object id="84" x="524" y="275" width="60" height="60"/>
+  <object id="85" x="440" y="350" width="60" height="60"/>
+  <object id="86" x="530" y="350" width="60" height="60"/>
+  <object id="87" x="620" y="350" width="60" height="60"/>
+  <object id="88" x="700" y="350" width="60" height="60"/>
+  <object id="89" x="700" y="275" width="60" height="60"/>
+  <object id="90" x="780" y="275" width="60" height="60"/>
+  <object id="91" x="790" y="350" width="60" height="60"/>
+ </objectgroup>
+</map>
